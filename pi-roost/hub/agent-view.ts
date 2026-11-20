@@ -3236,6 +3236,8 @@ export class AgentView implements Component {
 			const isSel = i === sel;
 			if (it.kind === "header") {
 				const s = it.section;
+				// a blank line between sections, not above the first
+				if (i > 0) out.push("");
 				const label = `${s.collapsed ? "▸" : "▾"} ${s.title}${s.rows.length || s.hidden ? ` (${s.rows.length + s.hidden})` : ""}`;
 				const hint = empty ? t.fg("dim", `  ${s.hint}`) : "";
 				if (isSel) this.selLine = out.length;
