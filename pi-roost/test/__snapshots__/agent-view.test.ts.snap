@@ -1,0 +1,1730 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`M72: overlay renders, pinned > review: a file's diff, the next hunk, the next file 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · M a.ts
+file 1/2 · hunk 1/2
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  @@ -1,2 +1,2 @@
+▶    1   const a = 1;
+     2 - const b = 2;
+     2 + const b = 3;
+  @@ -9 +9 @@
+     9 + nine
+    10   ten
+
+j/k line · n/p hunk · ]/[ file · c comment · d delete comment · b send back · m merge · r reload [0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > review: a file's diff, the next hunk, the next file 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · M a.ts
+file 1/2 · hunk 2/2
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  @@ -1,2 +1,2 @@
+     1   const a = 1;
+     2 - const b = 2;
+     2 + const b = 3;
+  @@ -9 +9 @@
+▶    9 + nine
+    10   ten
+
+j/k line · n/p hunk · ]/[ file · c comment · d delete comment · b send back · m merge · r reload [0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > review: a file's diff, the next hunk, the next file 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · A logo.png
+file 2/2
+────────────────────────────────────────────────────────────────────────────────────────────────────
+▶ binary file
+
+j/k line · n/p hunk · ]/[ file · c comment · d delete comment · b send back · m merge · r reload [0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > review: a file's diff, the next hunk, the next file 4`] = `
+"pi agents  0 needs input · [0m...[0m
+──────────────────────────────
+tasks 1 in workspace (1 nee[0m...[0m
+#4 users migration · A logo[0m...[0m
+file 2/2
+──────────────────────────────
+▶ binary file
+
+j/k line · n/p hunk · ]/[ f[0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > review: the comment input, a comment under its line, an outdated one, the page of files gone 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · M a.ts
+file 1/3 · hunk 1/2 · 2 comments
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ✎ outdated (line 7): an old one
+  @@ -1,2 +1,2 @@
+▶    1   const a = 1;
+     2 - const b = 2;
+     2 + const b = 3;
+  @@ -9 +9 @@
+     9 + nine
+    10   ten
+
+j/k line · n/p hunk · ]/[ file · c comment · d delete comment · b send back · m merge · r reload [0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > review: the comment input, a comment under its line, an outdated one, the page of files gone 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · M a.ts
+file 1/3 · hunk 1/2 · 2 comments
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ✎ outdated (line 7): an old one
+  @@ -1,2 +1,2 @@
+     1   const a = 1;
+     2 - const b = 2;
+▶    2 + const b = 3;
+  @@ -9 +9 @@
+     9 + nine
+    10   ten
+
+comment › drop it_pi:c_pi:fc _pi:/fc                                                                                  
+Enter keep the comment · Esc cancel"
+`;
+
+exports[`M72: overlay renders, pinned > review: the comment input, a comment under its line, an outdated one, the page of files gone 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · M a.ts
+file 1/3 · hunk 1/2 · 3 comments
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ✎ outdated (line 7): an old one
+  @@ -1,2 +1,2 @@
+     1   const a = 1;
+     2 - const b = 2;
+▶    2 + const b = 3;
+       └ ✎ drop it
+  @@ -9 +9 @@
+     9 + nine
+    10   ten
+
+j/k line · n/p hunk · ]/[ file · c comment · d delete comment · b send back · m merge · r reload [0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > review: the comment input, a comment under its line, an outdated one, the page of files gone 4`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · M a.ts
+file 1/3 · hunk 1/2 · 3 comments
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ✎ outdated (line 7): an old one
+  @@ -1,2 +1,2 @@
+     1   const a = 1;
+     2 - const b = 2;
+▶    2 + const b = 3;
+       └ ✎ drop it
+  @@ -9 +9 @@
+     9 + nine
+    10   ten
+
+#4 back › see comments_pi:c_pi:fc _pi:/fc                                                                             
+Enter send back with the comments · Esc cancel"
+`;
+
+exports[`M72: overlay renders, pinned > review: the comment input, a comment under its line, an outdated one, the page of files gone 5`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+#4 users migration · comments on files not in the diff now
+file 3/3 · 3 comments
+────────────────────────────────────────────────────────────────────────────────────────────────────
+▶ ✎ gone.ts (line 3): about gone
+
+j/k line · n/p hunk · ]/[ file · c comment · d delete comment · b send back · m merge · r reload [0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: a confirm (approve, pr), the back note, empty, nothing needs you 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces                                      1 working · 1 verifying · 1 in review · 1 to fix · 1 open
+
+REVIEW                                           │ #4 users migration
+▶ ◆ #4 users migration                  ⚠ +52 −1 │ stage   in review · verified: npm test (3s)
+CONFLICT · FAILED                                │ branch  roost/t-review (base main)
+  ✕ #6 rate limiter                     ⚠ +52 −1 │ agent   lint · working
+VERIFYING                                        │ change  2 files +52 −1 · 2 commits
+  ⧗ #7 settings page                    ⚠ +52 −1 │ overlap #6 changes db/0004_users.sql, db/schema.sql too
+WORKING                                          │ overlap #7 changes db/0004_users.sql, db/schema.sql too
+  ● #5 login page                       ⚠ +52 −1 │ overlap #5 changes db/0004_users.sql, db/schema.sql too
+OPEN                                             │ files   
+  · #9 audit log · after #4                      │         M db/schema.sql +12 −1
+SHELVED                                          │         A db/0004_users.sql +40
+  – #8 old idea                           +52 −1 │ said    "running bash"
+
+approve for #4: verify: npm test · they run in your account
+y approve these commands · any other key: no"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: a confirm (approve, pr), the back note, empty, nothing needs you 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces                                      1 working · 1 verifying · 1 in review · 1 to fix · 1 open
+
+REVIEW                                           │ #4 users migration
+▶ ◆ #4 users migration                  ⚠ +52 −1 │ stage   in review · verified: npm test (3s)
+CONFLICT · FAILED                                │ branch  roost/t-review (base main)
+  ✕ #6 rate limiter                     ⚠ +52 −1 │ agent   lint · working
+VERIFYING                                        │ change  2 files +52 −1 · 2 commits
+  ⧗ #7 settings page                    ⚠ +52 −1 │ overlap #6 changes db/0004_users.sql, db/schema.sql too
+WORKING                                          │ overlap #7 changes db/0004_users.sql, db/schema.sql too
+  ● #5 login page                       ⚠ +52 −1 │ overlap #5 changes db/0004_users.sql, db/schema.sql too
+OPEN                                             │ files   
+  · #9 audit log · after #4                      │         M db/schema.sql +12 −1
+SHELVED                                          │         A db/0004_users.sql +40
+  – #8 old idea                           +52 −1 │ said    "running bash"
+
+#4 back › use a transaction_pi:c_pi:fc _pi:/fc                                                                                            
+not approved
+Enter send back with this note (empty: none) · Esc cancel"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: a confirm (approve, pr), the back note, empty, nothing needs you 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace (1 needs you) · /tasks · Ctrl+N workspaces
+all projects · workspaces                                                                                    1 in review
+
+REVIEW                                           │ #4 users
+▶ ◆ #4 users                              +52 −1 │ stage   in review
+                                                 │ branch  roost/t-review (base main)
+                                                 │ change  2 files +52 −1 · 2 commits
+                                                 │ files   
+                                                 │         M db/schema.sql +12 −1
+                                                 │         A db/0004_users.sql +40
+
+#4: push roost/t4 (aaaaaaaa) and open a pull request into main?
+y push and open it · any other key: no"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: a confirm (approve, pr), the back note, empty, nothing needs you 4`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+all projects · workspaces                                                                          nothing in workspaces
+
+no tasks                                         │ 
+
+no tasks in workspaces: /tasks add, then s on it here
+n next · r reload · ↑↓ select · Esc close"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: a confirm (approve, pr), the back note, empty, nothing needs you 5`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 in workspace · /tasks · Ctrl+N workspaces
+all projects · workspaces                                                                                      1 working
+
+WORKING                                          │ #5 login page
+▶ ● #5 login page                         +52 −1 │ stage   working
+                                                 │ branch  roost/t-working (base main)
+                                                 │ agent   lint · working
+                                                 │ change  2 files +52 −1 · 2 commits
+                                                 │ files   
+                                                 │         M db/schema.sql +12 −1
+                                                 │         A db/0004_users.sql +40
+                                                 │ said    "running bash"
+
+nothing needs you
+Enter review · t attach · a approve · n next · r reload · ↑↓ select · Esc close"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: the pipeline at 120 columns, the detail beside it 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces                                      1 working · 1 verifying · 1 in review · 1 to fix · 1 open
+
+REVIEW                                           │ #4 users migration
+▶ ◆ #4 users migration                  ⚠ +52 −1 │ stage   in review · verified: npm test (3s)
+CONFLICT · FAILED                                │ branch  roost/t-review (base main)
+  ✕ #6 rate limiter                     ⚠ +52 −1 │ agent   lint · working
+VERIFYING                                        │ change  2 files +52 −1 · 2 commits
+  ⧗ #7 settings page                    ⚠ +52 −1 │ overlap #6 changes db/0004_users.sql, db/schema.sql too
+WORKING                                          │ overlap #7 changes db/0004_users.sql, db/schema.sql too
+  ● #5 login page                       ⚠ +52 −1 │ overlap #5 changes db/0004_users.sql, db/schema.sql too
+OPEN                                             │ files   
+  · #9 audit log · after #4                      │         M db/schema.sql +12 −1
+SHELVED                                          │         A db/0004_users.sql +40
+  – #8 old idea                           +52 −1 │ said    "running bash"
+
+Enter review · m merge · b back · v verify · o open a PR · t attach · a approve · n next · r reload · ↑↓ select · Esc[0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: the pipeline at 120 columns, the detail beside it 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces                                      1 working · 1 verifying · 1 in review · 1 to fix · 1 open
+
+REVIEW                                           │ #6 rate limiter
+  ◆ #4 users migration                  ⚠ +52 −1 │ stage   conflict · conflict in src/rate.ts
+CONFLICT · FAILED                                │ branch  roost/t-conflict (base main)
+▶ ✕ #6 rate limiter                     ⚠ +52 −1 │ change  2 files +52 −1 · 2 commits
+VERIFYING                                        │ overlap #4 changes db/0004_users.sql, db/schema.sql too
+  ⧗ #7 settings page                    ⚠ +52 −1 │ overlap #7 changes db/0004_users.sql, db/schema.sql too
+WORKING                                          │ overlap #5 changes db/0004_users.sql, db/schema.sql too
+  ● #5 login page                       ⚠ +52 −1 │ files   
+OPEN                                             │         M db/schema.sql +12 −1
+  · #9 audit log · after #4                      │         A db/0004_users.sql +40
+SHELVED                                          │ 
+  – #8 old idea                           +52 −1 │ 
+
+Enter review · m merge · b back · x abort sync · s start again · a approve · n next · r reload · ↑↓ select · Esc close"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: under 100 columns, the detail below; at 100 beside 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces 1 working · 1 verifying · 1 in review · 1 to fix · [0m...[0m
+
+REVIEW
+▶ ◆ #4 users migration                                                  ⚠ +52 −1
+CONFLICT · FAILED
+  ✕ #6 rate limiter                                                     ⚠ +52 −1
+VERIFYING
+  ⧗ #7 settings page                                                    ⚠ +52 −1
+WORKING
+  ● #5 login page                                                       ⚠ +52 −1
+OPEN
+  · #9 audit log · after #4
+SHELVED
+────────────────────────────────────────
+#4 users migration
+stage   in review · verified: npm test (3s)
+branch  roost/t-review (base main)
+agent   lint · working
+change  2 files +52 −1 · 2 commits
+overlap #6 changes db/0004_users.sql, db/schema.sql too
+overlap #7 changes db/0004_users.sql, db/schema.sql too
+overlap #5 changes db/0004_users.sql, db/schema.sql too
+files   
+        M db/schema.sql +12 −1
+
+Enter review · m merge · b back · v verify · o open a PR · t attach · a appro[0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: under 100 columns, the detail below; at 100 beside 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces                  1 working · 1 verifying · 1 in review · 1 to fix · 1 open
+
+REVIEW                                     │ #4 users migration
+▶ ◆ #4 users migration            ⚠ +52 −1 │ stage   in review · verified: npm test (3s)
+CONFLICT · FAILED                          │ branch  roost/t-review (base main)
+  ✕ #6 rate limiter               ⚠ +52 −1 │ agent   lint · working
+VERIFYING                                  │ change  2 files +52 −1 · 2 commits
+  ⧗ #7 settings page              ⚠ +52 −1 │ overlap #6 changes db/0004_users.sql, db/schema.sql too
+WORKING                                    │ overlap #7 changes db/0004_users.sql, db/schema.sql too
+  ● #5 login page                 ⚠ +52 −1 │ overlap #5 changes db/0004_users.sql, db/schema.sql too
+OPEN                                       │ files   
+  · #9 audit log · after #4                │         M db/schema.sql +12 −1
+SHELVED                                    │         A db/0004_users.sql +40
+  – #8 old idea                     +52 −1 │ said    "running bash"
+
+Enter review · m merge · b back · v verify · o open a PR · t attach · a approve · n next · r relo[0m...[0m"
+`;
+
+exports[`M72: overlay renders, pinned > workspaces: under 100 columns, the detail below; at 100 beside 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────
+tasks 1 blocked · 5 in workspaces (2 need you) · /tasks · Ctrl+N workspaces
+all projects · workspaces 1 working · 1 verifying · 1 in review · 1 to fix · [0m...[0m
+
+  ◆ #4 users migration                                                  ⚠ +52 −1
+CONFLICT · FAILED
+  ✕ #6 rate limiter                                                     ⚠ +52 −1
+VERIFYING
+  ⧗ #7 settings page                                                    ⚠ +52 −1
+WORKING
+  ● #5 login page                                                       ⚠ +52 −1
+OPEN
+  · #9 audit log · after #4
+SHELVED
+▶ – #8 old idea                                                           +52 −1
+────────────────────────────────────────
+#8 old idea
+stage   shelved
+branch  roost/t-shelved (base main)
+change  2 files +52 −1 · 2 commits
+files   
+        M db/schema.sql +12 −1
+        A db/0004_users.sql +40
+
+s start again · a approve · n next · r reload · ↑↓ select · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the concierge's answer: short, long and wrapped, scrolled; control characters and escapes cleaned 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+concierge · quiet
+Concierge
+
+  fix tests waits for a branch name.
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the concierge's answer: short, long and wrapped, scrolled; control characters and escapes cleaned 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────
+concierge · quiet
+Concierge
+
+  line 0: word word word word word word word word word word
+  word word word word word word word word word word word
+  word word word word word word word word word
+  line 1: word word word 
+  line 2: word word word 
+  line 3: word word word 
+  line 4: word word word 
+  line 5: word word word word word word word word word word
+  word word word word word word word word word word word
+  word word word word word word word word word
+  line 6: word word word 
+  line 7: word word word 
+  line 8: word word word 
+  line 9: word word word 
+  line 10: word word word word word word word word word word
+  word word word word word word word word word word word
+  word word word word word word word word word
+  line 11: word word word 
+  line 12: word word word 
+  line 13: word word word 
+  line 14: word word word 
+  line 15: word word word word word word word word word word
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the concierge's answer: short, long and wrapped, scrolled; control characters and escapes cleaned 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────
+concierge · quiet
+  line 2: word word word 
+  line 3: word word word 
+  line 4: word word word 
+  line 5: word word word word word word word word word word
+  word word word word word word word word word word word
+  word word word word word word word word word
+  line 6: word word word 
+  line 7: word word word 
+  line 8: word word word 
+  line 9: word word word 
+  line 10: word word word word word word word word word word
+  word word word word word word word word word word word
+  word word word word word word word word word
+  line 11: word word word 
+  line 12: word word word 
+  line 13: word word word 
+  line 14: word word word 
+  line 15: word word word word word word word word word word
+  word word word word word word word word word word word
+  word word word word word word word word word
+  line 16: word word word 
+  line 17: word word word 
+  line 18: word word word 
+  line 19: word word word 
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the concierge's answer: short, long and wrapped, scrolled; control characters and escapes cleaned 4`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+concierge · quiet
+Concierge
+
+  tab  separated red and bell
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the lines overlay (/tasks cleanup): what it would remove, what it did 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Left behind · /tasks cleanup yes removes it (never a worktree with changes, never an unmerged bra[0m...[0m
+
+  #3 dropped: remove /r/wt3 (branch kept)
+  remove 2 verify logs
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the lines overlay (/tasks cleanup): what it would remove, what it did 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Cleaned up
+
+  #3: worktree removed · branch kept
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the schedules: several, paused, never, a last skip, a long task; empty 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Schedules
+
+nightly  every 2h  · next in 1h 30m · last 30m ago
+  check the build  · pi · /w
+deps  daily 09:00  · next in 1h 30m · not run yet
+  update the dependencies and test  · codex · /w · o3-mini
+tests  weekdays 18:00  · paused · last 30m ago
+  ! npm test  · shell · /w
+once  every 2h  · never · last 30m ago
+    · pi · /w
+  skipped 5m ago: the previous run was still going
+
+/schedule run|pause|resume|rm <name> · ↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the schedules: several, paused, never, a last skip, a long task; empty 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+──────────────────────────────────────────────────
+Schedules
+
+nightly  every 2h  · next in 1h 30m · last 30m ago
+  check the build  · pi · /w
+deps  daily 09:00  · next in 1h 30m · not run yet
+  update the dependencies and test  · codex · /[0m...[0m
+tests  weekdays 18:00  · paused · last 30m ago
+  ! npm test  · shell · /w
+once  every 2h  · never · last 30m ago
+    · pi · /w
+  skipped 5m ago: the previous run was still going
+
+/schedule run|pause|resume|rm <name> · ↑↓ scrol[0m...[0m"
+`;
+
+exports[`M73: overlay renders, pinned > the schedules: several, paused, never, a last skip, a long task; empty 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+› ✽ lint      running bash                                                                     m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+no schedules: /schedule <name> <every 1h | daily 09:00 | weekdays 09:00 | cron "…"> <task>
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M73: overlay renders, pinned > the standing orders: newest first, yours marked, a clock, applied 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Standing orders · what the concierge keeps in mind
+
+  #3 daily 18:00 · a very long rule a very long rule a very long rule a very long rule a very lon[0m...[0m
+  #2 every 30m · say what is blocked
+  #1 when build ends, tell deploy its result (applied ×2, 1m ago) · yours
+
+/concierge orders add <rule> · /concierge orders rm <id>
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the standing orders: newest first, yours marked, a clock, applied 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+──────────────────────────────────────────────────
+Standing orders · what the concierge keeps in mind
+
+  #3 daily 18:00 · a very long rule a very long[0m...[0m
+  #2 every 30m · say what is blocked
+  #1 when build ends, tell deploy its result (a[0m...[0m
+
+/concierge orders add <rule> · /concierge order[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the standing orders: newest first, yours marked, a clock, applied 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+› ✽ lint      running bash                                                                     m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+no standing orders · /concierge orders add <rule> (or tell the concierge: ? remember …)
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: open, blocked, claimed, a workspace, done; the done ones past 30 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 2 open · 1 claimed · 1 blocked · 1 in workspace (1 needs you) · 1 done · /tasks · Ctrl+N wo[0m...[0m
+Task board · all projects · 2 open · 1 claimed · 1 blocked · 1 in workspace (1 needs you) · 1 done
+
+  #1 open · the schema
+      tables for users and teams
+  #4 open · handed on · handed to lint 2m ago
+  #2 blocked on #1 · write the tests
+      the unit tests
+  #3 claimed by lint (5m) · wire the api
+  #5 in review · lint · in review (verified)
+
+  #6 done 10m ago by lint · done one → applied v2
+
+/tasks all · add <title> [after #n] [-- detail] · assign <id> <session> · done <id> [result] · rm[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: open, blocked, claimed, a workspace, done; the done ones past 30 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 open · 33 done · /tasks
+Task board · all projects · 1 open · 33 done
+
+  #1 open · open
+
+  #10 done 1m ago · finished 0
+  #11 done 2m ago · finished 1
+  #12 done 3m ago · finished 2
+  #13 done 4m ago · finished 3
+  #14 done 5m ago · finished 4
+  #15 done 6m ago · finished 5
+  #16 done 7m ago · finished 6
+  #17 done 8m ago · finished 7
+  #18 done 9m ago · finished 8
+  #19 done 10m ago · finished 9
+  #20 done 11m ago · finished 10
+  #21 done 12m ago · finished 11
+  #22 done 13m ago · finished 12
+  #23 done 14m ago · finished 13
+  #24 done 15m ago · finished 14
+  #25 done 16m ago · finished 15
+  #26 done 17m ago · finished 16
+  #27 done 18m ago · finished 17
+  #28 done 19m ago · finished 18
+  #29 done 20m ago · finished 19
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: open, blocked, claimed, a workspace, done; the done ones past 30 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 open · 33 done · /tasks
+  #19 done 10m ago · finished 9
+  #20 done 11m ago · finished 10
+  #21 done 12m ago · finished 11
+  #22 done 13m ago · finished 12
+  #23 done 14m ago · finished 13
+  #24 done 15m ago · finished 14
+  #25 done 16m ago · finished 15
+  #26 done 17m ago · finished 16
+  #27 done 18m ago · finished 17
+  #28 done 19m ago · finished 18
+  #29 done 20m ago · finished 19
+  #30 done 21m ago · finished 20
+  #31 done 22m ago · finished 21
+  #32 done 23m ago · finished 22
+  #33 done 24m ago · finished 23
+  #34 done 25m ago · finished 24
+  #35 done 26m ago · finished 25
+  #36 done 27m ago · finished 26
+  #37 done 28m ago · finished 27
+  #38 done 29m ago · finished 28
+  #39 done 30m ago · finished 29
+  … 3 more done
+
+/tasks all · add <title> [after #n] [-- detail] · assign <id> <session> · done <id> [result] · rm[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: open, blocked, claimed, a workspace, done; the done ones past 30 4`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 1 open · 33 done · /tasks
+  #18 done 9m ago · finished 8
+  #19 done 10m ago · finished 9
+  #20 done 11m ago · finished 10
+  #21 done 12m ago · finished 11
+  #22 done 13m ago · finished 12
+  #23 done 14m ago · finished 13
+  #24 done 15m ago · finished 14
+  #25 done 16m ago · finished 15
+  #26 done 17m ago · finished 16
+  #27 done 18m ago · finished 17
+  #28 done 19m ago · finished 18
+  #29 done 20m ago · finished 19
+  #30 done 21m ago · finished 20
+  #31 done 22m ago · finished 21
+  #32 done 23m ago · finished 22
+  #33 done 24m ago · finished 23
+  #34 done 25m ago · finished 24
+  #35 done 26m ago · finished 25
+  #36 done 27m ago · finished 26
+  #37 done 28m ago · finished 27
+  #38 done 29m ago · finished 28
+  #39 done 30m ago · finished 29
+  … 3 more done
+
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: several projects name each task's own; only done; empty 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+tasks 3 open · /tasks
+Task board · all projects · 3 open
+
+  #1 open · [alpha] in a
+  #2 open · [beta] in b
+  #3 open · [any] anywhere
+
+/tasks all · add <title> [after #n] [-- detail] · assign <id> <session> · done <id> [result] · rm[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: several projects name each task's own; only done; empty 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Task board · all projects · 1 done
+
+  every task is done
+
+  #1 done 1m ago · finished
+
+/tasks all · add <title> [after #n] [-- detail] · assign <id> <session> · done <id> [result] · rm[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M73: overlay renders, pinned > the task board: several projects name each task's own; only done; empty 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Task board · all projects · none
+
+  the board is empty
+
+/tasks all · add <title> [after #n] [-- detail] · assign <id> <session> · done <id> [result] · rm[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 1`] = `
+"pi agents  0 needs input · 1 working · 2 completed · $0.42 today · $0.42 all
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+› one                                            three                                          two                                        
+  done · 0s                                      working · 9m                                   done · 0s                                  
+  $0.42 · 56k tok                                no usage yet                                   no usage yet                               
+  1 file +3 −1                                   no worktree                                    2 new                                      
+                                                                                                                                           
+  Fixed by retrying.                             still at it                                    Rewrote the test, and a long line of text  
+                                                                                                that has to wrap in its column             
+
+← → choose · Enter open · k keep this one (deletes the others) · r refresh · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 2`] = `
+"pi agents  0 needs input · 1 working · 2 completed · $0.42 today · $0.42 all
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+› one                               three                             two                           
+  done · 0s                         working · 9m                      done · 0s                     
+  $0.42 · 56k tok                   no usage yet                      no usage yet                  
+  1 file +3 −1                      no worktree                       2 new                         
+                                                                                                    
+  Fixed by retrying.                still at it                       Rewrote the test, and a long  
+                                                                      line of text that has to wrap 
+                                                                      in its column                 
+
+← → choose · Enter open · k keep this one (deletes the others) · r refresh · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 3`] = `
+"pi agents  0 needs input · 1 working [0m...[0m
+────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+› one
+  done · 0s
+  $0.42 · 56k tok
+  1 file +3 −1
+
+  Fixed by retrying.
+  three · working · - · no worktree
+  two · done · - · 2 new
+
+← → choose · Enter open · k keep this[0m...[0m"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 4`] = `
+"pi agents  0 needs input · 1 working · 2 completed · $0.42 today · $0.42 all
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+  one                                          › three                                          two                                        
+  done · 0s                                      working · 9m                                   done · 0s                                  
+  $0.42 · 56k tok                                no usage yet                                   no usage yet                               
+  1 file +3 −1                                   no worktree                                    2 new                                      
+                                                                                                                                           
+  Fixed by retrying.                             still at it                                    Rewrote the test, and a long line of text  
+                                                                                                that has to wrap in its column             
+
+← → choose · Enter open · k keep this one (deletes the others) · r refresh · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 5`] = `
+"pi agents  0 needs input · 1 working [0m...[0m
+────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+  one · done · $0.42 · 1 file +3 −1
+› three
+  working · 9m
+  no usage yet
+  no worktree
+
+  still at it
+  two · done · - · 2 new
+
+← → choose · Enter open · k keep this[0m...[0m"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 6`] = `
+"pi agents  0 needs input · 1 working · 2 completed · $0.42 today · $0.42 all
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+  one                                          › three                                          two                                        
+  done · 0s                                      working · 9m                                   done · 0s                                  
+  $0.42 · 56k tok                                no usage yet                                   no usage yet                               
+  1 file +3 −1                                   no worktree                                    2 new                                      
+                                                                                                                                           
+  Fixed by retrying.                             still at it                                    Rewrote the test, and a long line of text  
+                                                                                                that has to wrap in its column             
+
+k again: keep this one, delete the others (pinned ones stay)"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 7`] = `
+"pi agents  0 needs input · 1 working [0m...[0m
+────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+  one · done · $0.42 · 1 file +3 −1
+› three
+  working · 9m
+  no usage yet
+  no worktree
+
+  still at it
+  two · done · - · 2 new
+
+k again: keep this one, delete the ot[0m...[0m"
+`;
+
+exports[`M74: overlay renders, pinned > compare: a fan-out of 3, wide and narrow, a column chosen, the k prompt 8`] = `
+"pi agents  0 needs input · 1 working · 2 completed · $0.42 today · $0.42 all
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · fix it · 3 sessions
+
+  one                                          › three                                          two                                        
+  done · 0s                                      working · 9m                                   done · 0s                                  
+  $0.42 · 56k tok                                no usage yet                                   no usage yet                               
+  1 file +3 −1                                   no worktree                                    2 new                                      
+                                                                                                                                           
+  Fixed by retrying.                             still at it                                    Rewrote the test, and a long line of text  
+                                                                                                that has to wrap in its column             
+
+← → choose · Enter open · k keep this one (deletes the others) · r refresh · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > compare: the change text states: no worktree, no diff, gone, an error, a change; marked rows 1`] = `
+"pi agents  0 needs input · 0 working · 5 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · t · 5 sessions
+
+  five                                    four                                    one                                     three                                 › two                                 
+  done · 0s                               done · 0s                               done · 0s                               done · 0s                               done · 0s                           
+  no usage yet                            no usage yet                            no usage yet                            no usage yet                            no usage yet                        
+  ?                                       worktree gone                           2 files +10 −4 · 1 new                  no diff (its base is gone?)             no worktree                         
+                                                                                                                                                                                                      
+  running bash                            running bash                            running bash                            running bash                            running bash                        
+
+← → choose · Enter open · k keep this one (deletes the others) · r refresh · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > compare: the change text states: no worktree, no diff, gone, an error, a change; marked rows 2`] = `
+"pi agents  0 needs input · 0 working · 5 completed
+────────────────────────────────────────────────────────────
+Compare · t · 5 sessions
+
+  five · done · - · ?
+  four · done · - · worktree gone
+  one · done · - · 2 files +10 −4 · 1 new
+  three · done · - · no diff (its base is gone?)
+› two
+  done · 0s
+  no usage yet
+  no worktree
+
+  running bash
+
+← → choose · Enter open · k keep this one (deletes the ot[0m...[0m"
+`;
+
+exports[`M74: overlay renders, pinned > compare: the change text states: no worktree, no diff, gone, an error, a change; marked rows 3`] = `
+"pi agents  0 needs input · 0 working · 2 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Compare · y · 2 sessions
+
+  m                                                          › m                                                        
+  done · 0s                                                    done · 0s                                                
+  no usage yet                                                 no usage yet                                             
+  no worktree                                                  no worktree                                              
+                                                                                                                        
+  running bash                                                 running bash                                             
+
+← → choose · Enter open · r refresh · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 1`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+› ✽ fix tests  running bash                                                                    m  9m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+nothing happened yet (the log starts with the next task, reply or message)
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 2`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Log · what happened lately (newest first)
+
+    5s  fix tests removed
+   10s  user → fix tests: main please
+   30s  lead was told fix tests went idle
+    1m  fix tests reported to lead: tests pass
+    2m  lead → fix tests: use main
+    5m  fix tests works again (was blocked)
+   10m  fix tests finished: all green
+   30m  fix tests failed: exit 1
+    1h  fix tests asks: Which branch?
+    2h  started fix tests ← user
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 3`] = `
+"pi agents  0 needs input · 1 working [0m...[0m
+────────────────────────────────────────
+Log · what happened lately (newest fi[0m...[0m
+
+    5s  fix tests removed
+   10s  user → fix tests: main please
+   30s  lead was told fix tests went [0m...[0m
+    1m  fix tests reported to lead: t[0m...[0m
+    2m  lead → fix tests: use main
+    5m  fix tests works again (was bl[0m...[0m
+   10m  fix tests finished: all green
+   30m  fix tests failed: exit 1
+    1h  fix tests asks: Which branch?
+    2h  started fix tests ← user
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 4`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Log · what happened lately (newest first)
+
+    1s  lead → fix tests: note 229
+    2s  lead → fix tests: note 228
+    3s  lead → fix tests: note 227
+    4s  lead → fix tests: note 226
+    5s  lead → fix tests: note 225
+    6s  lead → fix tests: note 224
+    7s  lead → fix tests: note 223
+    8s  lead → fix tests: note 222
+    9s  lead → fix tests: note 221
+   10s  lead → fix tests: note 220
+   11s  lead → fix tests: note 219
+   12s  lead → fix tests: note 218
+   13s  lead → fix tests: note 217
+   14s  lead → fix tests: note 216
+   15s  lead → fix tests: note 215
+   16s  lead → fix tests: note 214
+   17s  lead → fix tests: note 213
+   18s  lead → fix tests: note 212
+   19s  lead → fix tests: note 211
+   20s  lead → fix tests: note 210
+   21s  lead → fix tests: note 209
+   22s  lead → fix tests: note 208
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 5`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+    4s  lead → fix tests: note 226
+    5s  lead → fix tests: note 225
+    6s  lead → fix tests: note 224
+    7s  lead → fix tests: note 223
+    8s  lead → fix tests: note 222
+    9s  lead → fix tests: note 221
+   10s  lead → fix tests: note 220
+   11s  lead → fix tests: note 219
+   12s  lead → fix tests: note 218
+   13s  lead → fix tests: note 217
+   14s  lead → fix tests: note 216
+   15s  lead → fix tests: note 215
+   16s  lead → fix tests: note 214
+   17s  lead → fix tests: note 213
+   18s  lead → fix tests: note 212
+   19s  lead → fix tests: note 211
+   20s  lead → fix tests: note 210
+   21s  lead → fix tests: note 209
+   22s  lead → fix tests: note 208
+   23s  lead → fix tests: note 207
+   24s  lead → fix tests: note 206
+   25s  lead → fix tests: note 205
+   26s  lead → fix tests: note 204
+   27s  lead → fix tests: note 203
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 6`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+   14s  lead → fix tests: note 216
+   15s  lead → fix tests: note 215
+   16s  lead → fix tests: note 214
+   17s  lead → fix tests: note 213
+   18s  lead → fix tests: note 212
+   19s  lead → fix tests: note 211
+   20s  lead → fix tests: note 210
+   21s  lead → fix tests: note 209
+   22s  lead → fix tests: note 208
+   23s  lead → fix tests: note 207
+   24s  lead → fix tests: note 206
+   25s  lead → fix tests: note 205
+   26s  lead → fix tests: note 204
+   27s  lead → fix tests: note 203
+   28s  lead → fix tests: note 202
+   29s  lead → fix tests: note 201
+   30s  lead → fix tests: note 200
+   31s  lead → fix tests: note 199
+   32s  lead → fix tests: note 198
+   33s  lead → fix tests: note 197
+   34s  lead → fix tests: note 196
+   35s  lead → fix tests: note 195
+   36s  lead → fix tests: note 194
+   37s  lead → fix tests: note 193
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 7`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+    4s  lead → fix tests: note 226
+    5s  lead → fix tests: note 225
+    6s  lead → fix tests: note 224
+    7s  lead → fix tests: note 223
+    8s  lead → fix tests: note 222
+    9s  lead → fix tests: note 221
+   10s  lead → fix tests: note 220
+   11s  lead → fix tests: note 219
+   12s  lead → fix tests: note 218
+   13s  lead → fix tests: note 217
+   14s  lead → fix tests: note 216
+   15s  lead → fix tests: note 215
+   16s  lead → fix tests: note 214
+   17s  lead → fix tests: note 213
+   18s  lead → fix tests: note 212
+   19s  lead → fix tests: note 211
+   20s  lead → fix tests: note 210
+   21s  lead → fix tests: note 209
+   22s  lead → fix tests: note 208
+   23s  lead → fix tests: note 207
+   24s  lead → fix tests: note 206
+   25s  lead → fix tests: note 205
+   26s  lead → fix tests: note 204
+   27s  lead → fix tests: note 203
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: every kind of event with its tone, newest first; scrolled; a long list cut at 200; empty 8`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+    3m  lead → fix tests: note 53
+    3m  lead → fix tests: note 52
+    3m  lead → fix tests: note 51
+    3m  lead → fix tests: note 50
+    3m  lead → fix tests: note 49
+    3m  lead → fix tests: note 48
+    3m  lead → fix tests: note 47
+    3m  lead → fix tests: note 46
+    3m  lead → fix tests: note 45
+    3m  lead → fix tests: note 44
+    3m  lead → fix tests: note 43
+    3m  lead → fix tests: note 42
+    3m  lead → fix tests: note 41
+    3m  lead → fix tests: note 40
+    3m  lead → fix tests: note 39
+    3m  lead → fix tests: note 38
+    3m  lead → fix tests: note 37
+    3m  lead → fix tests: note 36
+    3m  lead → fix tests: note 35
+    3m  lead → fix tests: note 34
+    3m  lead → fix tests: note 33
+    3m  lead → fix tests: note 32
+    3m  lead → fix tests: note 31
+    3m  lead → fix tests: note 30
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: filtered to one session with its title; filtered to the concierge; nothing from either 1`] = `
+"pi agents  0 needs input · 2 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Log · other (newest first)
+
+   30s  j2 → fix tests: hello
+    1m  other finished: fine
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: filtered to one session with its title; filtered to the concierge; nothing from either 2`] = `
+"pi agents  0 needs input · 2 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Concierge · what it did and said (newest first)
+
+   30s  concierge needs you: a branch name
+    1m  concierge: all quiet
+
+r reload · ↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > log: filtered to one session with its title; filtered to the concierge; nothing from either 3`] = `
+"pi agents  0 needs input · 2 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (2)
+› ✽ other      running bash                                                                    m  8m
+  ✽ fix tests  running bash                                                                    m  9m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+nothing from the concierge yet
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M74: overlay renders, pinned > usage: several sessions and models, a subscription, at two widths; nothing spent 1`] = `
+"pi agents  0 needs input · 4 working · 0 completed · $2.30 today · $13.90 all
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Usage · sessions in this view
+
+  today $2.30 · all $13.90 · 168k tokens · $0.30 of it on a subscription (as if billed per token)
+
+  By model
+  claude-opus-5-5                             $13.50     76k tok  2 sessions
+  claude-haiku-5-5                             $0.40     92k tok  2 sessions
+
+  By session
+  big job                                     $12.50     56k tok  $2.00 today  claude-opus-5-5
+  mixed lines                                  $1.10     56k tok  claude-haiku-5-5
+  small job with a rather long name tha[0m...[0m     $0.30     56k tok  $0.30 today  (sub)  claude-haik[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > usage: several sessions and models, a subscription, at two widths; nothing spent 2`] = `
+"pi agents  0 needs input · 4 working · 0 comple[0m...[0m
+──────────────────────────────────────────────────
+Usage · sessions in this view
+
+  today $2.30 · all $13.90 · 168k tokens · $0.3[0m...[0m
+
+  By model
+  claude-opus-5-5         $13.50     76k tok  2[0m...[0m
+  claude-haiku-5-5         $0.40     92k tok  2[0m...[0m
+
+  By session
+  big job                 $12.50     56k tok  $[0m...[0m
+  mixed lines              $1.10     56k tok  c[0m...[0m
+  small job with a [0m...[0m     $0.30     56k tok  $[0m...[0m
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M74: overlay renders, pinned > usage: several sessions and models, a subscription, at two widths; nothing spent 3`] = `
+"pi agents  0 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Usage · sessions in this view
+
+  nothing spent yet (sessions report what they spend as they work)
+
+↑↓ scroll · Esc close"
+`;
+
+exports[`M79: views and layers, pinned > a rename over a peek, cancelled; over the list, done 1`] = `
+"--- " "
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u0012"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+rename › alpha work_pi:c_pi:fc _pi:/fc                                                                                
+Enter rename · Esc cancel
+--- "z"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+rename › alpha workz_pi:c_pi:fc _pi:/fc                                                                               
+Enter rename · Esc cancel
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit
+--- "\\u0012"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+rename › alpha work_pi:c_pi:fc _pi:/fc                                                                                
+Enter rename · Esc cancel
+--- ""
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+rename › alpha wor_pi:c_pi:fc _pi:/fc                                                                                 
+Enter rename · Esc cancel
+--- ""
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+rename › alpha wo_pi:c_pi:fc _pi:/fc                                                                                  
+Enter rename · Esc cancel
+--- "q"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+rename › alpha woq_pi:c_pi:fc _pi:/fc                                                                                 
+Enter rename · Esc cancel
+--- "\\r"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+renamed · alpha woq
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M79: views and layers, pinned > an overlay over a peek (Ctrl+N), closed back to the peek; a digit then picks a choice 1`] = `
+"--- " "
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u000e"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+all projects · workspaces                                                      nothing in workspaces
+
+no tasks                                   │ 
+
+no tasks in workspaces: /tasks add, then s on it here
+n next · r reload · ↑↓ select · Esc close
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+no tasks in workspaces: /tasks add, then s on it here
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "1"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     postgres_pi:c_pi:fc _pi:/fc                                                                                      
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+no tasks in workspaces: /tasks add, then s on it here
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys"
+`;
+
+exports[`M79: views and layers, pinned > help over the list and over a peek; any key closes it 1`] = `
+"--- "?"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ↑ ↓ PgUp PgDn Home End  move                      Ctrl+L                  pick the model for ne[0m...[0m
+  Enter                   attach · start the t[0m...[0m   Ctrl+P Shift+Ctrl+P     next / previous enabl[0m...[0m
+  →                       attach                    Shift+Tab               next thinking level f[0m...[0m
+  Space                   peek and reply            /worktree               new sessions in their[0m...[0m
+  Ctrl+Enter              start the typed task[0m...[0m   in a peek: /model       switch that session's[0m...[0m
+  Ctrl+X                  stop; again within 2[0m...[0m   /resume                 open a past session ([0m...[0m
+  Ctrl+S                  group by state / dir[0m...[0m   /usage                  what the sessions spe[0m...[0m
+  Ctrl+T                  pin / unpin (pinned [0m...[0m   /log                    what happened lately:[0m...[0m
+  Ctrl+O                  mark the row (on a h[0m...[0m   /concierge on|off|log   the hub's own agent: [0m...[0m
+  marked: type, Enter     send it to every mar[0m...[0m   /concierge answer|act|undomay it answer routi[0m...[0m
+  in a peek: Alt+Enter    send after its curre[0m...[0m   /concierge orders [add|rm]the standing orders[0m...[0m
+  in a peek: /…           that session: /stop [0m...[0m   /tasks [add|assign|done|rm|release]the shared[0m...[0m
+  Tab · /                 complete: / the comm[0m...[0m   /workspaces · Ctrl+N    the tasks in their ow[0m...[0m
+  Ctrl+G · Ctrl+J         edit the task or rep[0m...[0m   /tasks pr <id>          the optional exit: pu[0m...[0m
+  marked: Ctrl+X Ctrl+T   stop / delete, pin /[0m...[0m   /tasks shelve <id> · cleanupput a task away ([0m...[0m
+  Ctrl+R                  rename                    /tasks review <id>      a task's diff against[0m...[0m
+  Shift+↑ Shift+↓         move the row within [0m...[0m   ? question              ask the concierge abo[0m...[0m
+  Alt+↑ Alt+↓             previous / next group     Ctrl+Y · Ctrl+E         send the concierge's [0m...[0m
+  Alt+1…9                 attach to row N of t[0m...[0m   /schedule name when taskrun a task on a sched[0m...[0m
+  Ctrl+F                  find by name (n:)         /fanout a/x b/y         the next task runs on[0m...[0m
+  Ctrl+G                  write the task in $V[0m...[0m   /compare                a fan-out (or marked [0m...[0m
+  s: n: o:                filter by state, nam[0m...[0m   /preset [name]          saved choices for new[0m...[0m
+  @dir task               start the task in th[0m...[0m   Esc                     close peek · clear in[0m...[0m
+  ! command               run a shell command [0m...[0m   Ctrl+C                  clear input; twice to[0m...[0m
+  /profile                the agent new sessio[0m...[0m   in a session            ← on an empty prompt,[0m...[0m
+  /model /thinking        defaults for new ses[0m...[0m
+
+any key to close
+--- "x"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit
+--- ""
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit
+--- " "
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "?"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ↑ ↓ PgUp PgDn Home End  move                      Ctrl+L                  pick the model for ne[0m...[0m
+  Enter                   attach · start the t[0m...[0m   Ctrl+P Shift+Ctrl+P     next / previous enabl[0m...[0m
+  →                       attach                    Shift+Tab               next thinking level f[0m...[0m
+  Space                   peek and reply            /worktree               new sessions in their[0m...[0m
+  Ctrl+Enter              start the typed task[0m...[0m   in a peek: /model       switch that session's[0m...[0m
+  Ctrl+X                  stop; again within 2[0m...[0m   /resume                 open a past session ([0m...[0m
+  Ctrl+S                  group by state / dir[0m...[0m   /usage                  what the sessions spe[0m...[0m
+  Ctrl+T                  pin / unpin (pinned [0m...[0m   /log                    what happened lately:[0m...[0m
+  Ctrl+O                  mark the row (on a h[0m...[0m   /concierge on|off|log   the hub's own agent: [0m...[0m
+  marked: type, Enter     send it to every mar[0m...[0m   /concierge answer|act|undomay it answer routi[0m...[0m
+  in a peek: Alt+Enter    send after its curre[0m...[0m   /concierge orders [add|rm]the standing orders[0m...[0m
+  in a peek: /…           that session: /stop [0m...[0m   /tasks [add|assign|done|rm|release]the shared[0m...[0m
+  Tab · /                 complete: / the comm[0m...[0m   /workspaces · Ctrl+N    the tasks in their ow[0m...[0m
+  Ctrl+G · Ctrl+J         edit the task or rep[0m...[0m   /tasks pr <id>          the optional exit: pu[0m...[0m
+  marked: Ctrl+X Ctrl+T   stop / delete, pin /[0m...[0m   /tasks shelve <id> · cleanupput a task away ([0m...[0m
+  Ctrl+R                  rename                    /tasks review <id>      a task's diff against[0m...[0m
+  Shift+↑ Shift+↓         move the row within [0m...[0m   ? question              ask the concierge abo[0m...[0m
+  Alt+↑ Alt+↓             previous / next group     Ctrl+Y · Ctrl+E         send the concierge's [0m...[0m
+  Alt+1…9                 attach to row N of t[0m...[0m   /schedule name when taskrun a task on a sched[0m...[0m
+  Ctrl+F                  find by name (n:)         /fanout a/x b/y         the next task runs on[0m...[0m
+  Ctrl+G                  write the task in $V[0m...[0m   /compare                a fan-out (or marked [0m...[0m
+  s: n: o:                filter by state, nam[0m...[0m   /preset [name]          saved choices for new[0m...[0m
+  @dir task               start the task in th[0m...[0m   Esc                     close peek · clear in[0m...[0m
+  ! command               run a shell command [0m...[0m   Ctrl+C                  clear input; twice to[0m...[0m
+  /profile                the agent new sessio[0m...[0m   in a session            ← on an empty prompt,[0m...[0m
+  /model /thinking        defaults for new ses[0m...[0m
+
+any key to close
+--- "j"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M79: views and layers, pinned > peek, a picker over it (Ctrl+L), back to the peek, closed 1`] = `
+"--- " "
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\f"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Model for alpha work
+search: ▏
+
+› a/one
+  b/two
+
+type to search · ↑↓ choose · Enter pick · Esc cancel
+--- "\\u001b[B"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Model for alpha work
+search: ▏
+
+  a/one
+› b/two
+
+type to search · ↑↓ choose · Enter pick · Esc cancel
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit"
+`;
+
+exports[`M79: views and layers, pinned > the list's own keys do nothing in a peek (Ctrl+O mark, Ctrl+F), and do in the list 1`] = `
+"--- " "
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u000f"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u0006"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+    which db?
+    1. postgres
+    2. sqlite
+    /w · started 1m ago
+    needs input · waiting 30s · m1
+    p/m
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+     _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+Enter send · Alt+Enter after work · 1-9 pick · / commands · Esc close · ? keys
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+› ✻ alpha work  which db?                                                                      m  1m
+  ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit
+--- "\\u000f"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ ✓▾ Needs input (1)
+ ✓✻ alpha work  which db?                                                                      m  1m
+› ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+1 marked · type and Enter to send to all · Ctrl+X stop · Ctrl+T pin · Esc unmark
+1 marked · type, Enter: send to all · /model /thinking · Ctrl+T pin · Ctrl+X stop · Ctrl+O mark ·[0m...[0m
+--- "\\u001b"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+  ✻ alpha work  which db?                                                                      m  1m
+› ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ _pi:c_pi:fc _pi:/fc describe a task and press Enter to start it in the background · Shift+Enter new line
+────────────────────────────────────────────────────────────────────────────────────────────────────
+marks cleared
+↑↓ select · Enter/→ attach · Space peek · Ctrl+Enter start+attach · Ctrl+X stop · ? keys · Esc exit
+--- "\\u0006"
+pi agents  1 needs input · 1 working · 0 completed
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ▾ Needs input (1)
+  ✻ alpha work  which db?                                                                      m  1m
+› ▾ Working (1)
+  ✽ beta work   running bash                                                                   m  1m
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ n:_pi:c_pi:fc _pi:/fc                                                                                                
+────────────────────────────────────────────────────────────────────────────────────────────────────
+marks cleared
+filtering (s: n: o: a: #PR) · Enter/→ attach · Esc clear"
+`;

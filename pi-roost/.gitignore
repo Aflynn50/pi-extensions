@@ -1,0 +1,6 @@
+node_modules
+*.log
+.superpowers/
+dist/
+stress/.runs/
+evals/.runs/

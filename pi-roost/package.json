@@ -1,0 +1,107 @@
+{
+  "name": "pi-roost",
+  "version": "0.1.21",
+  "description": "Agent view for pi: every background pi session on one screen — dispatch, peek, reply, attach, detach. Sessions outlive the terminal.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "agents",
+    "background",
+    "agent-view",
+    "sessions"
+  ],
+  "homepage": "https://github.com/luoxin9510/pi-roost#readme",
+  "bugs": {
+    "url": "https://github.com/luoxin9510/pi-roost/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoxin9510/pi-roost.git"
+  },
+  "license": "MIT",
+  "author": "nuckcole",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "bin": {
+    "pi-roost": "dist/bin/pi-roost.js"
+  },
+  "exports": {
+    "./api": {
+      "types": "./dist/adapters/pi/api.d.ts",
+      "default": "./dist/adapters/pi/api.js"
+    },
+    "./agent": {
+      "types": "./dist/lib/agent-client.d.ts",
+      "default": "./dist/lib/agent-client.js"
+    },
+    "./client": {
+      "types": "./dist/lib/client.d.ts",
+      "default": "./dist/lib/client.js"
+    },
+    "./protocol": {
+      "types": "./dist/lib/protocol.d.ts",
+      "default": "./dist/lib/protocol.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "adapters",
+    "hub",
+    "extensions",
+    "lib",
+    "sdk",
+    "dist",
+    "docs",
+    "!docs/agents",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./adapters/pi/index.ts"
+    ],
+    "image": "https://raw.githubusercontent.com/luoxin9510/pi-roost/main/assets/agent-view.png"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node scripts/fix-dts.mjs",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "stress": "node stress/run.ts",
+    "eval": "node evals/run.ts",
+    "prepare": "npm run build",
+    "install:local": "sh scripts/install-local.sh",
+    "prepublishOnly": "npm run check && npm test && npm run build",
+    "docs:protocol": "node scripts/protocol-doc.ts"
+  },
+  "dependencies": {
+    "@xterm/addon-serialize": "^0.14.0",
+    "@xterm/headless": "^6.0.0",
+    "node-pty": "^1.1.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "1.5.0",
+    "@earendil-works/pi-tui": "1.5.0",
+    "@types/node": "^24.0.0",
+    "typebox": "1.3.27",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.0",
+    "vitest-evals": "^0.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
