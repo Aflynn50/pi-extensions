@@ -1216,6 +1216,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1234,6 +1235,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1253,6 +1255,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1272,6 +1275,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1281,6 +1285,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1293,6 +1298,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1303,6 +1309,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1313,6 +1320,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1323,6 +1331,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1333,6 +1342,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1358,6 +1368,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1385,6 +1396,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1404,6 +1416,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      postgres_pi:c_pi:fc _pi:/fc                                                                                      
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1449,6 +1462,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1461,6 +1475,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1482,6 +1497,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1532,6 +1548,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1541,6 +1558,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1565,6 +1583,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1603,6 +1622,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1612,6 +1632,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1636,6 +1657,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1654,6 +1676,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1672,6 +1695,7 @@ pi agents  1 needs input · 1 working · 0 completed
     ────────────────────────────────────────────────────────────────────────────────────────────────
      _pi:c_pi:fc _pi:/fc answer · Enter sends · 1-9 picks a choice · / commands
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1681,6 +1705,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
 › ✻ alpha work  which db?                                                                      m  1m
+
   ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1693,6 +1718,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
  ✓▾ Needs input (1)
  ✓✻ alpha work  which db?                                                                      m  1m
+
 › ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1706,6 +1732,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
   ✻ alpha work  which db?                                                                      m  1m
+
 › ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
@@ -1719,6 +1746,7 @@ pi agents  1 needs input · 1 working · 0 completed
 ────────────────────────────────────────────────────────────────────────────────────────────────────
   ▾ Needs input (1)
   ✻ alpha work  which db?                                                                      m  1m
+
 › ▾ Working (1)
   ✽ beta work   running bash                                                                   m  1m
 
