@@ -1,0 +1,8 @@
+{
+  "name": "pi-clear-local",
+  "version": "0.1.0",
+  "description": "/clear as an alias for /new, keeping model and thinking level",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": { "extensions": ["./index.ts"] }
+}
