@@ -1,0 +1,8 @@
+{
+  "name": "pi-powerline-local",
+  "version": "0.1.0",
+  "description": "omp-style powerline footer (Nerd Font) with left/right segments",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": { "extensions": ["./index.ts"] }
+}
