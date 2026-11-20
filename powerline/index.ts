@@ -1,6 +1,6 @@
 /**
  * omp-style footer (Nerd Font required): one row, left-aligned segments
- * separated by dim "·":  ⌲ · ◕ model · 📂 path · branch · ctx%/window · statuses
+ * separated by dim "·":  ⌲ · ◕ model · 📂 path · branch · ctx%/window · session cost
  * /powerline toggles it. Enabled by default.
  */
 import type { ExtensionAPI, ExtensionContext } from "@earendil-works/pi-coding-agent";
@@ -31,6 +31,24 @@ function prettyModel(id: string, name?: string): string {
 	const m = id.replace(/^claude-/, "").match(/^([a-z]+)-(\d+)(?:-(\d+))?/);
 	if (!m) return id;
 	return `${m[1][0].toUpperCase()}${m[1].slice(1)} ${m[2]}${m[3] ? "." + m[3] : ""}`;
+}
+
+// Cumulative session cost, summed the same way as pi's built-in footer
+// (all entries, so it survives compaction).
+function sessionCost(ctx: ExtensionContext): number {
+	let cost = 0;
+	for (const e of ctx.sessionManager.getEntries() as any[]) {
+		const usage =
+			e.type === "usage"
+				? e.usage
+				: e.type === "message" && (e.message.role === "assistant" || e.message.role === "toolResult")
+					? e.message.usage
+					: e.type === "branch_summary" || e.type === "compaction"
+						? e.usage
+						: undefined;
+		cost += usage?.cost?.total ?? 0;
+	}
+	return cost;
 }
 
 export default function (pi: ExtensionAPI) {
@@ -64,7 +82,7 @@ export default function (pi: ExtensionAPI) {
 						usage
 							? theme.fg(pctColor, `${ICON.ctx} ${pct == null ? "?" : pct.toFixed(1)}%/${win(usage.contextWindow)}`)
 							: undefined,
-						...footerData.getExtensionStatuses().values(),
+						theme.fg("dim", `$${sessionCost(ctx).toFixed(3)}`),
 					];
 					return [truncateToWidth(segs.filter(Boolean).join(sep), width, "…")];
 				},
